@@ -1,23 +1,11 @@
 
-import Item from "./item"
+import { Outlet } from "react-router-dom" // use child api
 const Home = () => {
-  const itemData = [
-    { image: " ", title: "ReactJs", price: "₹ 567" },
-    { image: " ", title: "NodeJs", price: "₹ 567" },
-    { image: " ", title: "ExpressJs", price: "₹ 567" },
-    { image: " ", title: "ReactJs", price: "₹ 567" },
-    { image: " ", title: "ExpressJs", price: "₹ 567" },
-    { image: " ", title: "ReactJs", price: "₹ 567" }
-  ]
   return (
     <div className="home">
-   {
-    itemData.map((i,index)=>{
-      return<Item key= {index} props={i}/>
-    })
-   }
+   <Outlet></Outlet>
     </div>
   )
-}
 
+}
 export default Home

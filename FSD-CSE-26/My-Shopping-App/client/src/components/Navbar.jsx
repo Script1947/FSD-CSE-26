@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom"
+
 
 const Navbar = () => {
   return (
     <div className = "navbar">
-      <a>Home</a>
-      <a>My Cart</a>
-      <a>My Order</a>
-      <a>Settings</a>
-      <a>My Profile</a>
-      <a>Logout</a>
+   <Link to ="/ " > HOME </Link>
+      <Link to="/mycart " > mycart </Link>
+      <Link to="/myorder " > my orders </Link>
+      <Link to="/settings " > Settings </Link>
+      <Link to="/myprfile " > My Profile </Link>
+      <Link to="/logout " > Logout </Link>
+
+
     </div>
   )
 }

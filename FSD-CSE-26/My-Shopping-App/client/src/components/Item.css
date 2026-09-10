@@ -1,7 +1,7 @@
 .item{
     width: 400px ;
     height: 400px;
-    background-color: yellow;
+    background-color: rgb(235, 251, 11);
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
