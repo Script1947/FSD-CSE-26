@@ -1,0 +1,39 @@
+.header{
+  width:100vw ;
+  height: 10vh;
+  background-color: black;
+  color: white;
+ 
+}
+.navbar{
+    width: 100vw;
+      height: 4vh;
+      background-color: rgb(191, 158, 158);
+      color: white;
+      display: flex;
+      justify-content: space-evenly;
+  
+
+}
+.footer{
+    width: 100vw;
+      height: 6vh;
+      background-color: rgb(77, 103, 145);
+      color: white;
+    
+}
+
+.home{
+  width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    
+}
+
+.navbar a{
+  text-decoration: none; 
+
+}
